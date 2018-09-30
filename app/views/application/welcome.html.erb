@@ -1,0 +1,7 @@
+<h2>Welcome to the Secret Garden!</h2>
+<hr>
+  <h2> <%= "hi, #{session[:name]}" %> </h2>
+  <h3> <%= link_to "Click here to see the secret page!", secrets_path %> </h3>
+  <h3> <%= link_to "Click here to logout :(", logout_path, method: :delete %> </h3>
+<hr>
+<h4>&copy; 2018 Makda Enterprises</h4>
