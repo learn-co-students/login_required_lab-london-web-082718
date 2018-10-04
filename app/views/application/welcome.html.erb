@@ -1,0 +1,10 @@
+<h2>Welcome Boss!</h2>
+<hr>
+  <h2> <%= "Hi, #{session[:name]}" %> </h2>
+  <h3> <%= link_to "Click here to see this dank secret page!", secrets_path %> </h3>
+  <h3> <%= link_to "Click here to logout!", logout_path, method: :delete %> </h3>
+<hr>
+
+
+<h4>&copy; It's a Badman production ting </h4>
+<% # tip from Ali %>
